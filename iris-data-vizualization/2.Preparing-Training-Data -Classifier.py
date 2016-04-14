@@ -3,9 +3,6 @@ from sklearn.datasets import load_iris
 from sklearn import tree
 
 iris = load_iris()
-import sklearn
-print sklearn.__version__
-
 # print iris.feature_names 
 # #prints all the feautes like ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
 # print iris.target_names #prints the target result ['setosa' 'versicolor' 'virginica']
@@ -34,10 +31,3 @@ clf.fit(train_data, train_target)
 
 print test_target # gives [0, 1, 2] i.e we have one flower of each type
 print clf.predict(test_data) # gives [0, 1, 2] which means the predicted values match the testing data
-
-from sklearn.externals.six import StringIO  
-import pydot 
-dot_data = StringIO() 
-tree.export_graphviz(clf, out_file=dot_data,feature_names = iris.feature_names, class_names = iris.target_names, filled = True, rounded = True)
-graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
-graph.write_pdf("iris.pdf") 
