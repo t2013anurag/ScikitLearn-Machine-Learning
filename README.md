@@ -14,7 +14,7 @@ or :
 
     conda install scikit-learn
 
-Documentation  : http://scikit-learn.org/stable/install.html
+Documentation  : [Scikit-Learn](http://scikit-learn.org/stable/install.html)
 
 Using Scikit Learn to train classifiers.
 
@@ -22,7 +22,7 @@ Using Scikit Learn to train classifiers.
     Program 1 : Apples and Oranges 
     Classifier to predict the apple and oranges based on the feature table.
 
-Now vizualizing the IRIS dataset : https://en.wikipedia.org/wiki/Iris_flower_data_set?utm_campaign=chrome_series_decisiontree_041416&utm_source=gdev&utm_medium=yt-annt
+Now vizualizing the IRIS [dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set?utm_campaign=chrome_series_decisiontree_041416&utm_source=gdev&utm_medium=yt-annt)
 
     Directory : iris-data-vizualization
     Program 1 : 1.dataset-view (to just view rows i.e features and results)
