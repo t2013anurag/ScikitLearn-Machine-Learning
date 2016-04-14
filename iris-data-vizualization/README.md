@@ -15,8 +15,9 @@ or :
 
     conda install scikit-learn
     
-Pydot : 
-  sudo apt-get install python-pydot
+Isstalling Pydot : 
+
+    sudo apt-get install python-pydot
 
 Documentation  : [Scikit-Learn](http://scikit-learn.org/stable/install.html)
 
